@@ -104,9 +104,9 @@ curl -sL git.io/fisher | source && fisher install jorgebucaran/fisher
 	and success 'fisher'
 	or abort 'fisher'
 
-setup_gitconfig
-	and success 'gitconfig'
-	or abort 'gitconfig'
+#setup_gitconfig
+#	and success 'gitconfig'
+#	or abort 'gitconfig'
 
 install_dotfiles
 	and success 'dotfiles'
